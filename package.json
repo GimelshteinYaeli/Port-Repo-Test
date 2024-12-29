@@ -1,5 +1,11 @@
 {
-  "name": "codesweetly-project",
-  "version": "1.0.0",
-  "main": "index.js"
+	"name": "test",
+	"private": true,
+	"packageManager": "yarn@3.4.1",
+	"devDependencies": {
+		"prettier": "^3.2.5",
+	},
+	"workspaces": [
+		"docs"
+	]
 }
