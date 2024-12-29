@@ -1,11 +1,23 @@
 {
-	"name": "test",
-	"private": true,
-	"packageManager": "yarn@3.4.1",
-	"devDependencies": {
-		"prettier": "^3.2.5",
-	},
-	"workspaces": [
-		"docs"
-	]
+  "name": "example-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": ["example", "node", "package"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
